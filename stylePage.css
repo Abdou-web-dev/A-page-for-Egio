@@ -344,6 +344,13 @@ footer .under-footer .horizontal-line {
     }
 }
 
+@media screen and (max-width:450px){ /*added after deployment on Github 14-10-21*/
+    .div4-inner .marjolaine
+    {
+        display: block;
+        width: 175px;
+    }
+}
 
 @media screen and (max-width:750px){
     section.similar-prod{
