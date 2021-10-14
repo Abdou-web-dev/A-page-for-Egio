@@ -1,0 +1,500 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <!-- lightSlider for carousel with thumbnails-->
+    <link type="text/css" rel="stylesheet" href="./assets/lightslider-master/src/css/lightslider.css" />
+    <script src="./assets/Jquery/jquery-3.6.0.js"></script>
+    <script src="./assets/lightslider-master/src/js/lightslider.js"></script>
+
+    <link rel="stylesheet" href="stylePage.css">
+    <title>One page</title>
+
+</head>
+
+<body>
+
+    <section class="sign-up py-2">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-md-8 col-lg-8 text-center">
+                    <p class="">Vous souhaitez vendre sur Nenufea : <a href="#"
+                            class="text-decoration- text-dark">Inscrivez Vous ici</a></p>
+                </div>
+                <!-- &nbsp; is equivalent to space in html -->
+                <div class="col-md-3 col-lg-4 text-center">
+                    <img src="./assets/images/headphones.png" alt=""> &nbsp; &nbsp;
+                    <span>+33 6 60 11 68 53</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Navigation bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-4">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="./assets/images/nenufea-logo.PNG" alt="" width="60" height="40"
+                    class="d-inline-block align-text-top navlogo">
+                <span class="fs-2">Nenufea</span>
+            </a>
+            <!-- Collapse option for small screens, hamburger menu -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" aria-current="page" href="#">Maquillage</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="#">Visage</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link text-dark" href="#">Corps</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Cheveux</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Higiène</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Bien-etre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">DIY</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Coffret</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Artisants</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="user-info ">
+                <img src="./assets/images/profile-user.png" class="px-1">
+                <span class="px-2">John Doe</span>
+                <img src="./assets/images/favorite.png" class="px-2">
+                <img src="./assets/images/shopping-bag.png" class="ps-2 pe-5">
+            </div>
+
+        </div>
+    </nav>
+
+
+    <section class="info-produit1">
+        <div class="container-xxl">
+            <div class="row justify-content-center">
+                <div class="col-sm-10 col-lg-6 col-xl-6 col-xxl-7 slider">
+                    <!-- Slider -->
+                    <ul id="lightSlider">
+                        <li data-thumb="https://i.postimg.cc/fLbc8s3x/essential-oils-that-are-on-a-tablethumb.jpg">
+                            <img src="./assets/images/EssOil/essential-oils-that-are-on-a-table.jpg"
+                                class="img-fluid" />
+                        </li>
+                        <li data-thumb="https://i.postimg.cc/SxWfsDFz/3bottles-thumb.jpg">
+                            <img src="./assets/images/EssOil/3bottles.jpg" class="img-fluid">
+
+                        </li>
+                        <li data-thumb="https://i.postimg.cc/W48mmz4N/essoil-thumb.jpg">
+                            <img src="./assets/images/EssOil/essoil.jpg" class="img-fluid" />
+
+                        </li>
+                        <li data-thumb="https://i.postimg.cc/pT1D7S83/Lemon-Essential-Oil-thumb.jpg">
+                            <img src="./assets/images/EssOil/Lemon_Essential_Oil.jpg" class="img-fluid" />
+                        </li>
+                        <li data-thumb="https://i.postimg.cc/R0HGc4Hq/oil5thumb.jpg">
+                            <img src="./assets/images/EssOil/oil5.jpg" class="img-fluid" />
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-sm-10 col-lg-6 col-xl-6 col-xxl-5 ps-5">
+                    <div class="div1-inner">
+                        <p class="pt-2">Huiles Essentielles</p>
+                        <h2>Pack Huiles Essentielles</h2>
+                        <div class="small pt-3">
+                            <span class="bg-light p-2">Produits naturels</span>
+                            <span class="bg-light p-2">Sains</span>
+                            <span class="bg-light p-2">Bio</span>
+                            <span class="bg-light p-2">Vegan</span>
+                            <span class="bg-light p-2">100% recyclé</span>
+                        </div>
+                    </div>
+                    <div class="div2-inner">
+                        <div class="fw-bold pt-4 d-inline-block"> <span class="fs-3">96</span>.<small>00</small> <span
+                                class="fs-3">€</span></div>
+                        <span class=" pt-4 text-decoration-line-through text-secondary ps-5 ms-5"> <span
+                                class="fs-5">120</span>.<small>00</small> <span class="fs-5">€</span></span>
+                        <span class="ms-3 py-1 px-3 text-white rounded-pill percent"> <span class="">-20%</span></span>
+                        <div class="pt-2 olivia">
+                            <img src="./assets/images/olivia.PNG" class="olivia-img">
+                            <span class="text-secondary">Olivia Health</span>
+                        </div>
+
+                    </div>
+                    <div class="container-xxl div3-4">
+                        <div class="div3-inner">
+                            <span class="pb-2 d-block">Base d'huile</span>
+                            <a href="#" href="#" class=" p-1">Jasmin</a>
+                            <a href="#" class=" p-1">Crocus</spaan>
+                                <a href="#" class=" p-1">Dahlia</a>
+                                <a href="#" class=" p-1">Edelweiss</a>
+                                <a href="#" class=" p-1 lavande">Lavande</a>
+
+                        </div>
+                        <div class="div4-inner mt-3">
+                            <span class="pb-2 d-block">Origine</span>
+                            <a href="#" href="#" class=" p-1">Mandarine Rouge</a>
+                            <a href="#" class=" p-1">Menthe poivrée</a>
+                            <a href="#" class=" p-1 lavande">Lavande Aspic</a> <br> <br>
+                            <div class="two-divs">
+                                <a href="#" class="lavande p-1 ">Sapin baumier</a>
+                                <a href="#" class="lavande marjolaine p-1 ">Marjolaine à Coquilles</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="div5-inner mt-4">
+                        <span class="d-block">Quantité</span>
+                        <!-- this div is for the incrementer / decrementer element + -  for the numbeer of products purchased -->
+                        <div class="div-5-increment w-25  ps-3 py-3 mt-2 d-inline-block">
+                            <button id="subtract" class="">-</button>
+                            <input type="number" value="0" class="">
+                            <button id="add">+</button>
+                        </div>
+                        <!-- Ajouter au panier  -->
+                        <a href="#" class="d-inline-block ms-3 py-3 px-4 rounded">
+                            <span class="text-white fs-5 ">Ajouter au panier</span>
+                        </a>
+                        <span class="ms-3 heart">
+                            <img src="./assets/images/heart (2).png" class="border rounded-circle p-4">
+                        </span>
+                        <!-- telecharger les details -->
+                        <a href="#" class="download">
+                            <div class="pt-2 w-75 ps-5 py-2">
+                                <img src="./assets/images/download-arrow.png" alt="">
+                                <span class="text-dark">Télécharger les détails du produit</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section class="info-produit2 my-5">
+
+        <!-- tabbable menu -->
+        <div class="container-lg mt-5">
+            <nav>
+                <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <a class="nav-link active fs-5" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                        type="button" role="tab" aria-controls="nav-home" aria-selected="true">Composition</a>
+                    <a class="nav-link fs-5" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                        type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Détails
+                        produit</a>
+
+                </div>
+            </nav>
+            <!-- Content -->
+            <div class="tab-content" id="nav-tabContent">
+                <div class="tab-pane fade show active fs-5" id="nav-home" role="tabpanel"
+                    aria-labelledby="nav-home-tab">
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. <br> <br> At vero eos et accusam et justo
+                    duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                </div>
+
+                <div class="tab-pane fade fs-5" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab">Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem
+                    ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore
+                    et dolore magna aliquyam erat, sed diam voluptua.
+                    <br> <br> At vero eos et accusam et justo duo dolores et ea
+                    rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+                    Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
+                    labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores
+                    et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem
+                </div>
+            </div>
+
+    </section>
+
+    <!-- Similar products -->
+    <section class="similar-prod">
+
+        <div class="container-fluid ">
+            <h1 class="py-5 text-center" style="font-family: Fraunces;">Produits similaires</h1>
+            <div class="row">
+                <div class="col-md-6 col-lg-6 col-xl-3 col-xl-6 col-xxl-3 text-center text-md-start">
+                    <div class="prod1 py-4 ps-3 pe-2 position-relative">
+                        <a href="#"> <img src="./assets/images/heart (2).png"
+                                class="position-absolute top-0 end-0 p-2"></a>
+                        <img src="./assets/images/soap2.PNG" class="img-fluid">
+                        <h2 class="pt-3" style="color: #336667;font-family: Fraunces;">Shampoing naturel</h2>
+                        <p>Huiles essentielles</p>
+                        <small style="color: rgb(128, 128, 128);;">Olivia health</small>
+                        <span class=" pt-4 pb-3 text-black d-block fw-bold"> <span class="fs-3">120</span>.<span
+                                class="fs-5">00</span> <span class="fs-5">€</span></span>
+                        <div class="small">
+                            <span class="bg-light p-2">Produits naturels</span>
+                            <span class="bg-light p-2">Sains</span>
+                            <span class="bg-light p-2">Bio</span>
+                            <span class="bg-light p-2">Vegan</span>
+                            <span class="bg-light p-2">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-lg-3 col-xl-6 col-xxl-3 text-center text-md-start">
+                    <div class="prod1 py-4 ps-3 pe-2 position-relative">
+                        <a href="#"> <img src="./assets/images/heart (2).png"
+                                class="position-absolute top-0 end-0 p-2"></a>
+                        <img src="./assets/images/dt-ete-serein.jpg" class="img-fluid">
+                        <h2 class="pt-3" style="color: #336667;font-family: Fraunces;">Pack Huiles Essentielles</h2>
+                        <p>Huiles essentielles</p>
+                        <small style="color: rgb(128, 128, 128);;">Olivia health</small>
+                        <span class=" pt-4 pb-3 text-black d-block fw-bold"> <span class="fs-3">120</span>.<span
+                                class="fs-5">00</span> <span class="fs-5">€</span></span>
+                        <div class="small">
+                            <span class="bg-light p-2">Produits naturels</span>
+                            <span class="bg-light p-2">Sains</span>
+                            <span class="bg-light p-2">Bio</span>
+                            <span class="bg-light p-2">Vegan</span>
+                            <span class="bg-light p-2">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center text-md-start">
+                    <div class="prod1 py-4 ps-3 pe-2 position-relative">
+                        <a href="#"> <img src="./assets/images/heart (2).png"
+                                class="position-absolute top-0 end-0 p-2"></a>
+                        <img src="./assets/images/guide-huiles-essentielles.jpg" class="img-fluid">
+                        <h2 class="pt-3" style="color: #336667;font-family: Fraunces;">Pack Huiles Essentielles</h2>
+                        <p>Huiles essentielles</p>
+                        <small style="color: rgb(128, 128, 128);;">Olivia health</small>
+                        <span class=" pt-4 pb-3 text-black d-block fw-bold"> <span class="fs-3">120</span>.<span
+                                class="fs-5">00</span> <span class="fs-5">€</span></span>
+                        <div class="small">
+                            <span class="bg-light p-2">Produits naturels</span>
+                            <span class="bg-light p-2">Sains</span>
+                            <span class="bg-light p-2">Bio</span>
+                            <span class="bg-light p-2">Vegan</span>
+                            <span class="bg-light p-2">+</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-6 col-xxl-3 text-center text-md-start">
+                    <div class="prod1 py-4 ps-3 pe-2 position-relative">
+                        <a href="#"> <img src="./assets/images/heart (2).png" class="position-absolute top-0 end-0 p-2">
+                        </a>
+                        <img src="./assets/images/handmade-natural-soap-500x500.jpg" class="img-fluid">
+                        <h2 class="pt-3" style="color: #336667;font-family: Fraunces;">Pack Huiles Essentielles</h2>
+                        <p>Huiles essentielles</p>
+                        <small style="color: rgb(128, 128, 128);;">Olivia health</small>
+                        <span class=" pt-4 pb-3 text-black d-block fw-bold"> <span class="fs-3">120</span>.<span
+                                class="fs-5">00</span> <span class="fs-5">€</span></span>
+                        <div class="small">
+                            <span class="bg-light p-2">Produits naturels</span>
+                            <span class="bg-light p-2">Sains</span>
+                            <span class="bg-light p-2">Bio</span>
+                            <span class="bg-light p-2">Vegan</span>
+                            <span class="bg-light p-2">+</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <section class="py-4 section-under-similar bg-light">
+        <div class="container-xxl">
+            <div class="row">
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="./assets/images/sect4/credit-card.png" class="img-fluid ">
+                    <h2 class="pt-4 fw-normal">Paiement en ligne 100% sécurisé</h2>
+                    <span>Carte bancaire - Paypal </span>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="./assets/images/sect4/customer.png" alt="">
+                    <h2 class="pt-4 fw-normal"> Service client </h2>
+                    <span>+33 7 78 95 86 45 du lundi au vendredi de 9h à 13h et de 14h à 17h </span>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="./assets/images/sect4/lightbulb.png" alt="">
+                    <h2 class="pt-4 fw-normal">Besoin d'un conseil ? </h2>
+                    <span>Contactez-nous par formulaire </span>
+                </div>
+                <div class="col-md-6 col-lg-3 text-center">
+                    <img src="./assets/images/sect4/bio-energy-symbol.png" alt="">
+                    <h2 class="pt-4 fw-normal"> Produits naturels </h2>
+                    <span>Pour une consommation raisonnée et écologique </span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Je m'abonne à la newsletter -->
+    <section class="newsletter py-5 " style="background-color: #3ab39b;">
+        <div class="container-xxl">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-8 col-lg-6">
+                    <h2 class="text-white text-center text-md-start">Je m'abonne à la newsletter</h2>
+                </div>
+                <div class="col-md-8 col-lg-6">
+                    <form action="">
+                        <input class="form-control d-inline-block me-4 w-75 p-3" type="email" placeholder="Votre email">
+                        <a class="" href="#" role="submit"> <img src="./assets/images/telegram (2).png"
+                                class="image-form"></a>
+                        <div class="form-check">
+                            <input class="d-block form-check-input" type="checkbox" name="" id="">
+                            <div id="emailHelp" class="form-text"><span class="text-white">En cochant et validant,
+                                    j'accepte de recevoir
+                                    par mail
+                                    les newsletters de Nenufea.
+                                    Mes données seront traitées conformément à la</span> <span
+                                    class="text-dark">Politique de Gestion des
+                                    Données</span>
+                                <span class="text-white">Personnelles que j'ai lue et acceptée.</span>
+                            </div>
+                            <span class="text-form-mobile">
+                                En cochant cette case, vous acceptez de recevoir les newsletter.
+                            </span>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- dummy text -->
+    <section class="py-5" style="background-color: #204546;">
+        <div class="container-xxl">
+            <p class="text-white pt-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque sed sodales
+                mauris, eget laoreet nisi.
+                Aenean eu leo et orci iaculis gravida. Proin nec quam quis quam convallis fermentum. Suspendisse id
+                efficitur urna. Quisque pretium, orci a pretium sagittis, nisl libero consectetur mauris, vitae mollis
+                tellus nulla non mi. Maecenas lectus risus, volutpat ut condimentum</p>
+        </div>
+    </section>
+
+    <footer class="py-5" style="background-color: #336667;">
+        <div class="container-xxl ">
+            <div class="row justify-content-center footer-inner">
+                <div class="col-md-4 col-lg-4">
+                    <img src="./assets/images/nenufea-logo-footer.PNG" class="">
+                    <div><span class=" text-white fs-1" style="font-family: Laila;">Nenufea</span></div>
+                    <p class="text-white pt-3">In eleifend risus id ex <br> tincidunt dapibus. Aenean velit <br> risus,
+                        imperdiet non varius</p>
+                </div>
+                <div class="col-md-2 col-lg-2 text-white" style="font-family:Montserrat ;">
+                    <h4 class="pb-4 text-start">À propos</h4>
+                    <a href="#" class="text-decoration-none d-block pb-3">Qui sommes nous</a>
+                    <a href="#" class="text-decoration-none d-block pb-3">CGU</a>
+                    <a href="#" class="text-decoration-none  d-block pb-3">CGV</a>
+                    <a href="#" class="text-decoration-none d-block pb-3">Mentions légales</a>
+                    <a href="#" class="text-decoration-none   d-block pb-3">Données personnelles</a>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Plan du site</a>
+                </div>
+                <div class="col-md-3 col-lg-2 text-white" style="font-family:Montserrat ;">
+                    <h4 class="pb-4 text-start commercants">Commerçants</h4>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Boutiques</a>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Catégories</a>
+                    <a href="#" class="text-decoration-none d-block pb-3">Produits</a>
+                    <!-- <a href="#" class="text-decoration-none text-white d-block pb-3">Mentions légales</a> -->
+                    <!-- <a href="#" class="text-decoration-none text-white d-block pb-3">Données personnelles</a> -->
+                    <!-- <a href="#" class="text-decoration-none text-white d-block pb-3">Plan du site</a> -->
+                </div>
+                <div class="col-md-3 col-lg-2 text-white" style="font-family:Montserrat ;">
+                    <h4 class="pb-4 text-start">Votre compte</h4>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Livraison</a>
+                    <a href="#" class="text-decoration-none d-block pb-3">Commandes</a>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Informations personnelles</a>
+                    <a href="#" class="text-decoration-none  d-block pb-3">Bons de réduction</a>
+                    <!-- <a href="#" class="text-decoration-none text-white d-block pb-3">Données personnelles</a> -->
+                    <!-- <a href="#" class="text-decoration-none text-white d-block pb-3">Plan du site</a> -->
+                </div>
+                <div class="col-md-3 col-lg-2 text-white" style="font-family:Montserrat ;">
+                    <h4 class="pb-4 text-start">Besoin d'aide ?</h4>
+                    <a href="#" class="text-decoration-none  d-block pb-3">FAQ</a>
+                    <a href="#" class="text-decoration-none d-block pb-3">Nous contacter</a>
+                    
+                </div>
+            </div>
+
+            <div class="under-footer pt-5 pb-1">
+                <div class="horizontal-line w-100">
+                    <!-- the line -->
+                </div>
+                <div class="row pt-3">
+                    <div class="col-md-8 col-lg-3 column">
+                        <span class="text-white">Copyright © 2020 - Nenufea</span>
+                    </div>
+                    <div class="col-md-8 col-lg-3 column">
+                        <a href="#"> <i class="bi bi-facebook me-3 fs-3"></i></a>
+                        <a href=""><i class="bi bi-instagram me-3 fs-3"></i></a>
+                        <a href=""><i class="bi bi-twitter me-3 fs-3"></i></a>
+                        <a href=""><i class="bi bi-youtube me-3 fs-3"></i></a>
+                    </div>
+                    <div class="col-md-8 col-lg-3 column">
+                        <img src="./assets/images/visa.png" alt="">
+                        <img src="./assets/images/icons8-mastercard-32.png" alt="">
+                        <img src="./assets/images/icons8-paypal-32.png" alt="">
+                    </div>
+                    <div class="col-md-8 col-lg-3 position-relative">
+                        <img width="32" height="32" class="position-absolute top-0 end-0 egiologo"
+                            src="https://www.egiodigital.com/wp-content/uploads/2021/10/egio-digital-e-commerce.svg"
+                            alt="Agence web offshore au Maroc - Egio Digital Ecommerce" style="filter:invert(1);">
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- script for the bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+        </script>
+    <!-- script for the slider -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#lightSlider').lightSlider({
+                gallery: true,
+                item: 1,
+                loop: true,
+                slideMargin: 0,
+                auto: true,
+                keyPress: true,
+                controls: true,
+                thumbMargin: 3,
+                galleryMargin: 0
+            });
+        })
+    </script>
+    <script src="./scripts/script_increment.js"></script>
+
+</body>
+
+</html>
